@@ -1,9 +1,5 @@
-//
-//  BrainSimApp.swift
-//  BrainSim
-//
-//  Created by Vladimir Martemianov on 4. 5. 2026..
-//
+// BrainSimApp.swift
+// Entry point — sets a fixed minimum window size for macOS.
 
 import SwiftUI
 
@@ -13,5 +9,7 @@ struct BrainSimApp: App {
         WindowGroup {
             ContentView()
         }
+        .defaultSize(width: 1100, height: 680)
+        .windowResizability(.contentMinSize)
     }
 }
