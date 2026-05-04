@@ -46,6 +46,8 @@ The `Core` layer has no UIKit/SwiftUI imports and is designed to port 1:1 to Rus
 
 ---
 
+
+
 ## Neuron model
 
 BrainSim uses the **Izhikevich (2003)** model — a dimensionless reduction of Hodgkin-Huxley that runs in O(1) per neuron per timestep:
